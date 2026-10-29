@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="This is a example of a simple feature section master" />
+  
+  <link rel="icon" href="resources/favicon.ico" type="image/x-icon" sizes="96x96" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sora:wght@100..800&display=swap" rel="stylesheet">
+
+  <title>Simple Feature Section | devChallenges.io</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #121826;
+      background-image: url("/home/victorricci/Documentos/programação/frontend/CHALLENGES/simple-feature-section-master/resources/Background_image.svg");
+      height: 100vh;
+      padding-top: 58px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      row-gap: 46px;
+      font-family: Lato;
+    }
+
+    main {
+      width: 100%;
+      /* margin: 0 50px 0 50px; */
+      padding: 0 24px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      gap: 50px;
+    }
+
+    main p {
+      font-size: 16px;
+    }
+
+    header {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      row-gap: 14px;
+    }
+
+    header h1 {
+      width: 100%;
+      max-width: 640px;
+      font-size: 40px;
+      line-height: 1.3;
+      color: #E5E7EB;
+    }
+
+    header p {
+      color: #9DA3AE;
+    }
+
+    .card {
+      width: 100%;
+      max-width: 318px;
+      /* height: 100%; */
+      padding: 25px;
+      background-color: #212936;
+      border-radius: 15px;
+      display: flex;
+      flex-direction: column;
+      row-gap: 18px;
+    }
+
+    .card div {
+      display: flex;
+      flex-direction: column;
+      row-gap: 16px;
+    }
+
+    .card div span {
+      /* text-align: center; */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0;
+      width: 55px;
+      height: 55px;
+      font-size: 23px;
+      border-radius: 50%;
+      background-color: gray;
+    }
+
+    .card div h1 {
+      font-size: 20px;
+      padding-right: 18px;
+      color: #E5E7EB;
+    }
+
+    .card div p {
+      padding-right: 18px;
+      color: #9DA3AE;
+    }
+
+    .card img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 15px;
+    }
+
+    #emoji-hand {
+      background-color: #FCEED8;
+    }
+
+    #emoji-goalpost {
+      background-color: #DEE9FC;
+    }
+
+    #emoji-speech-bubble {
+      background-color: #FBE5E6;
+    }
+
+    .author-info {
+      font-size: 14px;
+      text-align: center;
+      margin-top: auto;
+      color: rgb(55, 65, 81);
+    }
+
+    .author-info a {
+      text-decoration: none;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Quality feedbacks for your SaaS products</h1>
+    <p>The blocks & components you need</p>
+  </header>
+
+  <main>
+    <div class="card">
+      <div>
+        <span id="emoji-hand">✋</span>
+        <h1>Collect Feedback at Multiple Touchpoints</h1>
+        <p>Provide a comprehensive understanding of the customer experience.</p>
+      </div>
+      <img
+        src="/home/victorricci/Documentos/programação/frontend/CHALLENGES/simple-feature-section-master/resources/photo_2.png"
+        alt="conversation"
+        width="267px"
+        height="193px" />
+    </div>
+
+    <div class="card">
+      <div>
+        <span id="emoji-goalpost">🥅</span>
+        <h1>Ask Targeted and Specific Questions</h1>
+        <p>Avoid vague or open-ended questions that may not yield actionable insights.</p>
+      </div>
+      <img
+        src="/home/victorricci/Documentos/programação/frontend/CHALLENGES/simple-feature-section-master/resources/photo_1.png"
+        alt="conversation"
+        width="267px"
+        height="193px" />
+    </div>
+
+    <div class="card">
+      <div>
+        <span id="emoji-speech-bubble">💬</span>
+        <h1>Prioritize and Respond to Feedback</h1>
+        <p>Communicate the changes or improvements you've made in response to their feedback.</p>
+      </div>
+      <img
+        src="/home/victorricci/Documentos/programação/frontend/CHALLENGES/simple-feature-section-master/resources/photo_3.png"
+        alt="conversation"
+        width="267px"
+        height="193px" />
+    </div>
+  </main>
+
+  <footer class="author-info">
+    Coded by <a href="#">Victor C. Ricci</a> | Challenge by
+    <a href="https://www.devchallenges.io?ref=challenge" target="_blank">devChallenges.io</a>.
+  </footer>
+</body>
+
+</html>
